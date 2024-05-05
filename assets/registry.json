@@ -2695,6 +2695,17 @@
       "type": "object",
       "typeInfo": "Struct"
     },
+    "bevy_gltf_animation_test_240505::MyGltfCube": {
+      "additionalProperties": false,
+      "isComponent": true,
+      "isResource": false,
+      "properties": {},
+      "required": [],
+      "short_name": "MyGltfCube",
+      "title": "bevy_gltf_animation_test_240505::MyGltfCube",
+      "type": "object",
+      "typeInfo": "Struct"
+    },
     "bevy_gltf_components::GltfProcessed": {
       "additionalProperties": false,
       "isComponent": true,
@@ -2772,17 +2783,6 @@
       ],
       "short_name": "BlenderShadowSettings",
       "title": "bevy_gltf_components::blender_settings::lighting::BlenderShadowSettings",
-      "type": "object",
-      "typeInfo": "Struct"
-    },
-    "bevy_gltf_test_240505::MyGltfCube": {
-      "additionalProperties": false,
-      "isComponent": true,
-      "isResource": false,
-      "properties": {},
-      "required": [],
-      "short_name": "MyGltfCube",
-      "title": "bevy_gltf_test_240505::MyGltfCube",
       "type": "object",
       "typeInfo": "Struct"
     },
