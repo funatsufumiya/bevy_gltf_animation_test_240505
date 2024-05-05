@@ -2,6 +2,8 @@
 
 This is a test project to read animated transform data from a glTF file, without display it (hidden), using [bevy_gltf_components](https://github.com/kaosat-dev/Blender_bevy_components_workflow/tree/main/tools/bevy_components).
 
+This will be useful to use the animation data to drive other entities or effects as you wish.
+
 ![screenshot 1](screenshots/screenshot_2024-05-05_20.46.52.png)
 
 ![screenshot 2](screenshots/screenshot_2024-05-05_20.47.07.png)
