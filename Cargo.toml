@@ -1,0 +1,15 @@
+[package]
+name = "bevy_gltf_animation_test_240505"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+debug = ["bevy-debug-text-overlay/debug"]
+
+[dependencies]
+bevy = "0.13"
+bevy_asset_loader = "0.20.1"
+bevy_registry_export = "0.3.1"
+bevy_gltf_components = { version = "0.5"} 
+bevy-debug-text-overlay = { version = "8.1.0", default-features = false }
