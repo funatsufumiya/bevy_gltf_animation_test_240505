@@ -59,7 +59,6 @@ fn spawn_gltf_objects(
 ) {
     println!("Spawning GLTF objects");
 
-    // if the GLTF has loaded, we can navigate its contents
     if let Some(gltf) = assets_gltf.get(&my.gltf) {
         println!("GLTF loaded!");
         // spawn the first scene in the file
@@ -68,15 +67,6 @@ fn spawn_gltf_objects(
             visibility: Visibility::Hidden,
             ..default()
         }, MyGltfObject));
-
-        // spawn the scene
-        // commands.spawn(SceneBundle {
-        //     scene: gltf.named_scenes["CubeAction"].clone(),
-        //     transform: Transform::from_xyz(1.0, 2.0, 3.0),
-        //     ..Default::default()
-        // });
-
-        // PERF: the `.clone()`s are just for asset handles, don't worry :)
     }
 }
 
